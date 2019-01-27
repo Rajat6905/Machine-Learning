@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-dataset=pd.read_csv("F:\DB\student_scores.csv")
+dataset=pd.read_csv("student_scores.csv")
 
 dataset.isnull().sum()
 
